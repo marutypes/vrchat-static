@@ -61,9 +61,9 @@ client.on("ready", async () => {
   if (OUTPUT_FILE.endsWith("json")) {
     output = JSON.stringify(users, null, 2);
   } else {
-    output = users.join("\n");
+    output = users.join(",");
   }
-  
+
   fs.writeFile(OUTPUT_FILE, output, (err) => {
     if (err) {
       console.error("Error saving users to file:", err);
