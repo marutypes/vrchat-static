@@ -1,10 +1,7 @@
-// Load the dotenv library
 const dotenv = require("dotenv");
 
-// Load the .env file if it exists
 dotenv.config();
 
-// Load the Discord.js library
 const { Client, GatewayIntentBits } = require("discord.js");
 const fs = require("fs");
 
