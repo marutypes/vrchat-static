@@ -5,7 +5,7 @@
   "main": "index.js",
   "scripts": {
     "dev": "http-server",
-    "get-patrons": "node ./scripts/get-discord-users.js public/patrons.json",
+    "get-patrons": "node ./scripts/get-discord-users.js public/patrons.txt",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "marutypes",

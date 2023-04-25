@@ -54,12 +54,19 @@ client.on("ready", async () => {
       return member.roles.cache.has(role.id);
     })
     .map((member) => {
-      return member.user.username
+      return member.user.username;
     });
 
-  fs.writeFile(OUTPUT_FILE, JSON.stringify(users, null, 2), (err) => {
+  let output = "";
+  if (OUTPUT_FILE.endsWith("json")) {
+    output = JSON.stringify(users, null, 2);
+  } else {
+    output = users.join("\n");
+  }
+  
+  fs.writeFile(OUTPUT_FILE, output, (err) => {
     if (err) {
-      console.error("Error saving users to JSON file:", err);
+      console.error("Error saving users to file:", err);
     } else {
       console.log(`Users saved to ${OUTPUT_FILE}`);
       client.destroy();
