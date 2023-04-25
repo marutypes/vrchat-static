@@ -4,7 +4,7 @@
   "description": "\u0016A repo to hold all the static text I grab in VRChat worlds, and scripts to generate them.",
   "main": "index.js",
   "scripts": {
-    "get-patrons": "node ./scripts/get-discord-users.js",
+    "get-patrons": "node ./scripts/get-discord-users.js public/patrons.json",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "marutypes",
