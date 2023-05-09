@@ -61,7 +61,7 @@ client.on("ready", async () => {
   if (OUTPUT_FILE.endsWith("json")) {
     output = JSON.stringify(users, null, 2);
   } else {
-    output = users.join(",");
+    output = users.join(", ");
   }
 
   fs.writeFile(OUTPUT_FILE, output, (err) => {
