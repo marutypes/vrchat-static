@@ -6,7 +6,7 @@ but the definition of semantic versioning and some other stuff doesn't super app
 ## [2.4.0] - 2022-05-15
 - I'm finally back, to kick some tail. 
 - Upgraded to Udon 1.x so I can actually do stuff again
-- Integrated remote text fetching for changelog and news, so they don't go stale
+- Integrated remote text fetching for changelog, so they don't go stale
 - Redid world UI
 
 ## [2.3.2] - 2022-04-20
