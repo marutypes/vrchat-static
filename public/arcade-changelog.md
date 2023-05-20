@@ -1,13 +1,10 @@
-All notable changes post-release to this project will be documented here.
-
-The format is based on [Keep a Changelog](https://keepachangelog.com/en/1.0.0/),
-but the definition of semantic versioning and some other stuff doesn't super apply to VRC worlds so idk lol.
-
 ## [2.4.0] - 2023-05-15
-- I'm finally back, to kick some tail. 
+- I'm finally back, to kick some tail! 
 - Upgraded to Udon 1.x so I can actually do stuff again
 - Integrated remote text fetching for changelog, so they don't go stale
 - Redid world UI
+- Brought in a bunch of stuff from the scrapped PC-only arcade and generally touched up the level geometry.
+- FEESH!
 
 ## [2.3.2] - 2022-04-20
 
