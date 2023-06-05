@@ -1,10 +1,19 @@
-## [2.4.0] - 2023-05-15
-- I'm finally back, to kick some tail! 
+## [2.4.0] - 2023-06-06
+I'm finally back to actually working on this project. Hurray! We're scrapping the idea of a separate PC only arcade, and I'm pulling in assets and ideas from there over time.
+
+### Changed
 - Upgraded to Udon 1.x so I can actually do stuff again
 - Integrated remote text fetching for changelog, so they don't go stale
-- Redid world UI
-- Brought in a bunch of stuff from the scrapped PC-only arcade and generally touched up the level geometry.
-- FEESH!
+- Redid world UI and settings from scratch
+- Touched up all the UI for poppin' buddies
+
+### Added
+- Fish! Aquarium! Neon Signs! Glasses! Wires! Wowee!
+
+### Fixed
+- A lot of fixes to network sync in the arcade games.
+- No more janky aliased pixel edges, thanks to the magic of shaders.
+- Haptics on bumblball work correctly
 
 ## [2.3.2] - 2022-04-20
 
