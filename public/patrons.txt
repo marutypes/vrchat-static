@@ -1,1 +1,1 @@
-phosphenolic, SCRN, nono_vr
+phosphenolic, scrn, nono_vr
