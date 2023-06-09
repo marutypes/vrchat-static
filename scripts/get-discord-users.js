@@ -54,7 +54,7 @@ client.on("ready", async () => {
       return member.roles.cache.has(role.id);
     })
     .map((member) => {
-      return member.user.username;
+      return member.displayName || member.user.username;
     });
 
   let output = "";
