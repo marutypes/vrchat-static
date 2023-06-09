@@ -54,9 +54,9 @@ client.on("ready", async () => {
       return member.roles.cache.has(role.id);
     })
     .map((member) => {
-      console.log("member displayname: ", member.displayName);
-      console.log("member.user username: ", member.username);
-      console.log("member.user displayname: ", member.user.displayName);
+      console.log("Found member:" + JSON.stringify(member));
+      console.log("-- member.displayName: ", member.displayName);
+      console.log("-- member.user.username: ", member.user.username);
       return member.displayName || member.user.username;
     });
 
