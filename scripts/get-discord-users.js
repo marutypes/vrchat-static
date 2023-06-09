@@ -55,6 +55,7 @@ client.on("ready", async () => {
     })
     .map((member) => {
       console.log("Found member:" + JSON.stringify(member));
+      console.log("For user:" + JSON.stringify(member.user));
       console.log("-- member.displayName: ", member.displayName);
       console.log("-- member.user.username: ", member.user.username);
       return member.displayName || member.user.username;
