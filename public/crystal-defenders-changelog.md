@@ -8,7 +8,7 @@
   - 16 types of towers, each with their own interactive mechanics
   - 1 terrifying Reaper, who must be avoided
   - Wieldable sword, spear, hammer, and shovel
-  - 4 global upgrades
+  - 4 global upgrades to unlock
   - Excellent voice acting from ReinhardtVR
   - Endless NewGame+ difficulty increases
   - Score boards, spectator view, minimaps, and more
