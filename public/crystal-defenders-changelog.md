@@ -1,3 +1,12 @@
+## [1.0.1] - 2023-06-19
+
+### Quality of Life Changes
+-  Selling, Upgrading, and Heal pickups can no longer effect something you can't see. This should make it harder to accidentally upgrade or sell something by dropping the object while looking away.
+
+### Fixes
+- Keys should always spawn correctly when a boss is defeated
+- Bats should no longer take divergent paths or get stuck in the wall in waves 20-30
+
 ## [1.0.0] - 2023-06-17
 
 ### Release
