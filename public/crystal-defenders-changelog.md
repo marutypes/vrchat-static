@@ -1,7 +1,12 @@
+## [1.0.3] - 2023-06-20
+
+### Fixes
+- Fix traps (still) not being sellable after the change in 1.0.1
+
 ## [1.0.2] - 2023-06-20
 
 ### Fixes
-- Fix traps not being upgrade/sellable after the change in 1.0.1
+- Fix traps not being upgradable after the change in 1.0.1
 
 ## [1.0.1] - 2023-06-19
 
