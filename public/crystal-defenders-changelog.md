@@ -1,3 +1,20 @@
+## [1.0.4] - 2023-06-25
+
+This patch is mostly aiming to fix some issues that are pretty hard to replicate consistently. As such I hope they're sorted but am not 100% sure. Bug reports in my discord appreciated!
+
+### Added
+- You can now see what "version" of the world you're in. Helpful for telling me about bugs, also if I ship an update you can be sure you're on it! :)
+- Enabled avatar scaling (might make custom limits on it later)
+
+### Fixes
+- Fixed master display text on the gameplay menu
+- (Hopefully) fix issues with double-buying yeetlets.
+- (Hopefully) fix issues with keys not always disappearing when used.
+- (Hopefully) fix issues with ownership-changes or player join / leaves in the middle of waves putting monsters in a state of undeath
+
+### Changes
+- player UI now defaults to "static world" positioning on quest, since that seems to have a measurable impact on performance. You can still set it back if you want.
+
 ## [1.0.3] - 2023-06-20
 
 ### Fixes
