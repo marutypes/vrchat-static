@@ -6,13 +6,16 @@
   "scripts": {
     "dev": "http-server",
     "get-patrons": "node ./scripts/get-discord-users.js public/patrons.txt",
+    "ensure-image-size": "node ./scripts/resize-images.js ./public/*.png 1024",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "marutypes",
   "license": "MIT",
   "dependencies": {
     "discord.js": "^14.9.0",
-    "dotenv": "^16.0.3"
+    "dotenv": "^16.0.3",
+    "glob": "^10.3.3",
+    "sharp": "^0.32.4"
   },
   "devDependencies": {
     "http-server": "^14.1.1"
