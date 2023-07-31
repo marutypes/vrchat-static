@@ -1,3 +1,15 @@
+## [1.2.0] - 2023-07-30
+
+This is another QoL patch with a couple small new features.
+
+### Fixes
+- Spectator screen was broken because of the scene hierarchy rework - should be fixed now
+- Spectator screen will now automatically follow the first active player even if turned on before there is one
+
+### Changed
+- Unmuting the video player automatically mutes game music
+- Reduced particle density on the blizzard tower
+  
 ## [1.1.0] - 2023-07-10
 
 This is a QoL patch with a couple small new features.
