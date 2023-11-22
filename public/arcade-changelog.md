@@ -1,4 +1,9 @@
 ## [2.5.0] - 2023-11-21
+
+### Fixed
+- Made the new hand colliders invisible
+ 
+## [2.5.0] - 2023-11-21
 This update includes a whole new game (sort of), since the Oh Torus boardgame is now fully automated. Other than that mostly quality of life fixes.
 
 ### Added
