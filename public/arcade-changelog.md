@@ -1,4 +1,4 @@
-## [2.5.0] - 2023-11-21
+## [2.5.1] - 2023-11-21
 
 ### Fixed
 - Made the new hand colliders invisible
