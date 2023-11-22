@@ -1,3 +1,22 @@
+## [2.5.0] - 2023-11-21
+This update includes a whole new game (sort of), since the Oh Torus boardgame is now fully automated. Other than that mostly quality of life fixes.
+
+### Added
+- A full rules engine for Oh Torus!
+- All games show control prompts based on your platform (eg. mobile says to press use, desktop says to click, etc.)
+
+### Fixed
+- All games are now playable on Android (non-VR) VRChat
+- Desktop players with rebound movement controls should be able to play the games using them
+- Slap it should sync much better when passing between players
+- Just Ask should no longer randomly desync when reshuffled
+
+### Changed
+- Reworked core Player Interaction system so that it uses your controller locations rather than hand bones
+- Less intense haptics on quest
+- Reduced audio source count
+- Pillows upstairs have silly floaty friction physics instead of none at all
+  
 ## [2.4.0] - 2023-06-06
 I'm finally back to actually working on this project. Hurray! We're scrapping the idea of a separate PC only arcade, and I'm pulling in assets and ideas from there over time.
 
