@@ -1,3 +1,21 @@
+## [2.6.0] - 2024-01-03
+
+### Added
+- All games now show global (cross-instance) highscores as reported on my discord. (Hopefully we'll have a better submission system soon)
+- Added "Scores" pane to the world settings UI
+  
+### Changed
+- Improved world lighting (hopefully)
+- Large revamp of Face Invaders, including:
+  - co-op
+  - destroyable barriers
+  - "bonus" enemies who cross the top of the screen
+  - nice animations
+  - global highscore
+  - syncing improvements
+- Small bug fixes to some of the games
+- OhTorus colors are now more distinct and easier to see hopefully
+
 ## [2.5.1] - 2023-11-21
 
 ### Fixed
