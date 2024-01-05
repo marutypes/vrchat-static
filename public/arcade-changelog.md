@@ -1,3 +1,8 @@
+## [2.6.1] - 2024-01-05
+
+### Fixed
+- Fixed some broken syncing for Space Invaders Co-Op along with some edgecases around dropping joysticks while respawning and leaving the instance.
+
 ## [2.6.0] - 2024-01-03
 
 ### Added
