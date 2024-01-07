@@ -1,3 +1,19 @@
+## [1.2.1] - 2024-01-07
+
+## Changed
+- We are updated to Unity 2022! Yay.
+  
+### Fixes
+- Spectator screen, again
+- Fixed up the UI on android phone clients
+- Bosses shouldn't spawn 2 keys *or* not spawn a key anymore
+- Locking purchases for master actually works now
+- Added a banner that shows when the master has locked purchases
+- Rebuilt tower spawn logic so no more towers appearing in the wrong spot in instances with a lot of latency (I hope)
+- Fixed issues with spam clicking start round skipping waves (also probably)
+- Unity update seemed to break desktop click-to-throw, now it works again
+- There is now a (faint, non-shadow-casting) directional light, which makes some avatars look a lot nicer in-world
+
 ## [1.2.0] - 2023-07-30
 
 This is another QoL patch with a couple small new features.
