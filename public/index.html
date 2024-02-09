@@ -5,38 +5,46 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Maru's VRChat Static Content</title>
     <link
-      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.16/dist/tailwind.min.css"
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
       rel="stylesheet"
     />
-    <style>
-      body {
-        background-color: #f3f4f6;
-      }
-
-      .w-32rem {
-        width: 32rem;
-      }
-    </style>
   </head>
-  <body class="min-h-screen flex flex-col items-center bg-purple">
-    <h1 class="text-4xl font-bold mb-8 mt-32">Maru's VRChat Static Content</h1>
-    <div class="text-xl p-8 rounded-lg shadow-md bg-white w-32rem">
-      <h2 class="text-2xl font-bold mb-4">Oh, hi!</h2>
+  <body
+    class="min-h-screen flex flex-col items-center bg-gray-900 text-gray-200"
+  >
+    <h1 class="text-3xl md:text-4xl font-bold text-purple-600 mb-8 mt-8 md:mt-12 lg:mt-24 text-center">
+      Maru's VRChat Static Content
+    </h1>
+    <div class="text-xl p-8 rounded-lg shadow-md bg-gray-800 ml-8 mr-8 w-full md:w-3/5 lg:w-1/3">
+      <h2 class="text-2xl font-bold text-purple-400 mb-4">Oh, hi!</h2>
       <p class="mb-4">
         This is where my worlds pull their changelogs and other static content
         from! If that doesn't mean anything to you, you've come to the wrong
         place. If you're curious about how it works, check out the
         <a
-          class="text-blue-600 font-bold visited:text-purple-600"
+          class="text-purple-300 font-bold hover:text-purple-500"
           href="https://github.com/marutypes/vrchat-static"
           >actual github repo!</a
         >
-        Otherwise, here's a random cat pic.
+        Otherwise, here's sine random cat pics.
       </p>
-      <img
-        src="https://cataas.com/cat"
-        alt="A random cat picture from cat as a service"
-      />
+      <div
+        class="h-96 p-8 flex items-center justify-center rounded-lg bg-gray-900"
+      >
+        <img
+          src="https://cataas.com/cat"
+          alt="A random cat picture from cat as a service"
+          class="rounded-lg h-96 w-96 object-contain md:object-scale-down hover:object-down"
+        />
+      </div>
+      <p class="mt-6">Alternatively, if you were looking for highscores:</p>
+      <div class="mt-8">
+        <a
+          href="./arcade-highscores.html"
+          class="bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-500"
+          >View Highscores</a
+        >
+      </div>
     </div>
   </body>
 </html>
