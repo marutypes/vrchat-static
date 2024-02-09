@@ -44,6 +44,8 @@
         useEffect,
       } from "https://unpkg.com/htm/preact/standalone.module.js";
 
+      const nbsp = "\xA0";
+
       const fetchHighscores = async (setHighscores, setLoading) => {
         setLoading(true);
         try {
@@ -129,7 +131,7 @@
 
             <aside class="mt-4">
               <p>
-                This scoreboard is for the&nbsp
+                This scoreboard is for the${nbsp}
                 <${Link}
                   src="https://vrchat.com/home/launch?worldId=wrld_d29c4512-ad9c-4c39-9ca6-b6081e3af99d"
                   >VRChat world, Maru's Arcade.<//
@@ -138,7 +140,7 @@
             </aside>
             <aside class="mt-4">
               <p>
-                Scores can be submitted via&nbsp
+                Scores can be submitted via${nbsp}
                 <${Link} src="https://discord.gg/62MWkdPkQm">Discord<//>.
               </p>
             </aside>
