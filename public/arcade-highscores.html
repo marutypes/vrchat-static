@@ -76,11 +76,11 @@
 
         return html`
           <div class="container mx-auto">
-            <h1 class="text-4xl font-bold text-purple-600 mb-8">
+            <h1 class="text-4xl font-bold text-pink-600 mb-8">
               Maru's Arcade Global Highscores
             </h1>
             <table class="table-auto w-full bg-gray-800 rounded-lg shadow">
-              <thead class="bg-purple-700 text-purple-200">
+              <thead class="bg-pink-700 text-pink-200">
                 <tr>
                   <th class="text-left px-4 py-2">Game</th>
                   <th class="text-left px-4 py-2">Player</th>
@@ -102,7 +102,7 @@
             <div class="mt-8 flex flex-row justify-between">
               <button
                 onclick=${() => fetchHighscores(setHighscores, setLoading)}
-                class="mb-4 bg-purple-600 text-white py-2 px-4 rounded hover:bg-purple-500"
+                class="mb-4 bg-pink-600 text-white py-2 px-4 rounded hover:bg-pink-500"
               >
                 Reload
               </button>
@@ -110,7 +110,7 @@
               html`<div role="status">
                 <svg
                   aria-hidden="true"
-                  class="w-8 h-8 animate-spin fill-purple-400"
+                  class="w-8 h-8 animate-spin fill-pink-400"
                   viewBox="0 0 100 101"
                   xmlns="http://www.w3.org/2000/svg"
                 >
@@ -149,7 +149,7 @@
       const Link = ({ src, children }) =>
         html`<a
           href="${src}"
-          class="font-medium text-purple-300 dark:text-purple-200 hover:underline"
+          class="font-medium text-pink-300 dark:text-pink-200 hover:underline"
         >
           ${children}</a
         >`;
